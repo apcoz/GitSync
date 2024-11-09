@@ -9,4 +9,13 @@ LiveLink is a real-time sync tool designed for ROBLOX developers seeking seamles
 - **Flexible Naming Conventions**: Recognizes script types based on file naming (e.g., `local.<name>.luau`, `module.<name>.luau`), making organization easy.
 - **Lightweight and Fast**: Runs in the background with minimal setup and system impact.
 
+## How to Create and Name Items
+
+To ensure your files sync correctly in ROBLOX Studio, use the following naming conventions:
+
+- **Folder**: Create a folder with any name, like `folder.<name>`, to organize scripts and modules.
+- **Local Script**: Name the local script `local.<name>.luau`, where `<name>` can be anything, to identify it as a local script.
+- **Script**: Name the script `script.<name>.luau`, where `<name>` can be anything, for regular server scripts.
+- **Module Script**: Name the module script `module.<name>.luau`, where `<name>` can be anything, for module scripts.
+
 Whether you’re a solo developer or part of a team, LiveLink provides a robust, real-time connection between your code editor and ROBLOX Studio, keeping your workflow efficient and your game scripts up-to-date.
